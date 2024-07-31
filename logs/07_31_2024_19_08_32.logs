@@ -1,0 +1,2 @@
+[2024-07-31 19:08:32,894] root - 6 - INFO - Hey first world!
+[2024-07-31 19:08:32,894] root - 11 - INFO - Error occured in python script [demo.py] line number [9] error message [division by zero]
