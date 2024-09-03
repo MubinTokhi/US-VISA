@@ -2,7 +2,24 @@ from us_visa.logger import logging
 from us_visa.exception import CustomException
 import sys
 
+from us_visa.pipeline.training_pipeline import TrainPipeline
 
+
+obj = TrainPipeline()
+obj.run_pipeline()
+
+
+
+
+
+
+
+
+
+
+
+
+""" 
 logging.info("Hey first world!")
 
 try:
@@ -10,3 +27,4 @@ try:
 except Exception as e:
     logging.info(CustomException(e, sys))
     raise CustomException(e,sys) from e 
+"""

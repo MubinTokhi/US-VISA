@@ -1,0 +1,10 @@
+[2024-09-01 05:05:51,736] root - 21 - INFO - Entered the start_data_ingestion method of trainingpipeline class
+[2024-09-01 05:05:51,737] root - 22 - INFO - Getting the data from mongodb
+[2024-09-01 05:05:51,737] root - 95 - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2024-09-01 05:05:51,737] root - 38 - INFO - Exporting data from mongodb
+[2024-09-01 05:05:56,287] root - 33 - INFO - MongoDB connection succesfful
+[2024-09-01 05:05:56,287] root - 27 - INFO - Import collection as a Data frame
+[2024-09-01 05:06:07,492] root - 42 - INFO - shape of dataframe is: (25480, 12)
+[2024-09-01 05:06:07,495] root - 50 - INFO - Saving exported data into feature store file path: artifact\09_01_2024_05_05_05_51\data_ingestion\feature_store\usvisa.csv
+[2024-09-01 05:06:07,580] root - 100 - INFO - got the data from mongodb
+[2024-09-01 05:06:07,581] root - 66 - INFO - Entered split_data_as_train_test method of Data_Ingestion class

@@ -1,0 +1,4 @@
+[2024-09-01 04:38:09,396] root - 21 - INFO - Entered the start_data_ingestion method of trainingpipeline class
+[2024-09-01 04:38:09,397] root - 22 - INFO - Getting the data from mongodb
+[2024-09-01 04:38:09,397] root - 95 - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2024-09-01 04:38:09,397] root - 38 - INFO - Exporting data from mongodb
