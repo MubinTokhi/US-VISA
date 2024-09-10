@@ -1,0 +1,27 @@
+[2024-09-10 10:39:37,059] root - 25 - INFO - Entered the start_data_ingestion method of trainingpipeline class
+[2024-09-10 10:39:37,059] root - 26 - INFO - Getting the data from mongodb
+[2024-09-10 10:39:37,059] root - 97 - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2024-09-10 10:39:37,059] root - 38 - INFO - Exporting data from mongodb
+[2024-09-10 10:39:37,440] root - 33 - INFO - MongoDB connection succesfful
+[2024-09-10 10:39:37,440] root - 27 - INFO - Import collection as a Data frame
+[2024-09-10 10:39:51,075] root - 42 - INFO - shape of dataframe is: (25480, 12)
+[2024-09-10 10:39:51,076] root - 50 - INFO - Saving exported data into feature store file path: artifact\09_10_2024_10_10_39_29\data_ingestion\feature_store\usvisa.csv
+[2024-09-10 10:39:51,147] root - 102 - INFO - got the data from mongodb
+[2024-09-10 10:39:51,147] root - 68 - INFO - Entered split_data_as_train_test method of Data_Ingestion class
+[2024-09-10 10:39:51,153] root - 73 - INFO - Performed train test split on the dataframe
+[2024-09-10 10:39:51,153] root - 74 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2024-09-10 10:39:51,235] root - 106 - INFO - Performed train test split on the dataset
+[2024-09-10 10:39:51,235] root - 107 - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[2024-09-10 10:39:51,235] root - 113 - INFO - Data Ingestion artifact: DataIngestionArtifact(trained_file_path='artifact\\09_10_2024_10_10_39_29\\data_ingestion\\ingested\\train.csv', test_file_path='artifact\\09_10_2024_10_10_39_29\\data_ingestion\\ingested\\test.csv')
+[2024-09-10 10:39:51,242] root - 29 - INFO - Got the train_set and test_set from mongodb
+[2024-09-10 10:39:51,242] root - 30 - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[2024-09-10 10:39:51,242] root - 43 - INFO - Entered the start_data_validation method of TrainPipeline class
+[2024-09-10 10:39:51,246] root - 129 - INFO - starting data validation
+[2024-09-10 10:39:51,278] root - 45 - INFO - Is  required column present: [True]
+[2024-09-10 10:39:51,278] root - 134 - INFO - All required columns present in training dataframe: True
+[2024-09-10 10:39:51,278] root - 45 - INFO - Is  required column present: [True]
+[2024-09-10 10:39:51,278] root - 140 - INFO - All required columns present in testing dataframe: True
+[2024-09-10 10:40:21,029] root - 110 - INFO - 1/12 drift detected
+[2024-09-10 10:40:21,031] root - 174 - INFO - data validation artifact: DataValidationArtifact(validation_status=True, message='Drift not detected', drift_report_file_path='artifact\\09_10_2024_10_10_39_29\\data_validation\\drift_report\\report.yaml')
+[2024-09-10 10:40:21,032] root - 49 - INFO - Performed the data validation operation
+[2024-09-10 10:40:21,032] root - 50 - INFO - Exited the start_data_validation method of TrainPipeline class
