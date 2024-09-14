@@ -1,15 +1,8 @@
-from us_visa.logger import logging
-from us_visa.exception import CustomException
-import sys
-
 from us_visa.pipeline.training_pipeline import TrainPipeline
 
 
 obj = TrainPipeline()
 obj.run_pipeline()
-
-
-
 
 
 

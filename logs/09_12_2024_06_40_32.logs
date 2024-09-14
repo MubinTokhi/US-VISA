@@ -1,0 +1,6 @@
+[2024-09-12 06:40:34,900] root - 25 - INFO - Entered the start_data_ingestion method of trainingpipeline class
+[2024-09-12 06:40:34,901] root - 26 - INFO - Getting the data from mongodb
+[2024-09-12 06:40:34,901] root - 97 - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2024-09-12 06:40:34,901] root - 38 - INFO - Exporting data from mongodb
+[2024-09-12 06:40:39,922] root - 33 - INFO - MongoDB connection succesfful
+[2024-09-12 06:40:39,922] root - 27 - INFO - Import collection as a Data frame
