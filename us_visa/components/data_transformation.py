@@ -206,3 +206,6 @@ class DataTransformation:
                 return data_transformation_artifact
         except Exception as e:
             raise CustomException(e,sys) from e 
+
+
+
