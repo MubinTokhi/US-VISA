@@ -47,6 +47,24 @@ class SimpleStorageService:
         except Exception as e:
             raise CustomException(e,sys) from e 
         
+    def s3_key_path_avalible(self, bucket_name, s3_key) -> bool:
+        
+        try:
+            bucket = self.get_bucket(bucket_name)
+            file_objects = [file_object for file_object in bucket.objects.filter(Prefix=s3_key)]
+            
+            if len(file_objects) > 0:
+                
+                return True
+            else:
+                
+                return False
+        except Exception as e:
+            
+            raise CustomException(e,sys) from e 
+        
+        
+        
 
     def get_file_object(self, filename: str, bucket_name: str) -> Union[List[object], object]:
         """
@@ -280,4 +298,4 @@ class SimpleStorageService:
         except Exception as e:
             raise CustomException(e, sys) from e
             
-            
+        
