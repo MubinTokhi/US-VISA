@@ -6,18 +6,21 @@ from us_visa.components.data_ingestion import DataIngestion
 from us_visa.components.data_validation import DataValidation
 from us_visa.components.data_transformation import DataTransformation
 from us_visa.components.model_trainer import ModelTrainer
+from us_visa.components.model_evaluation import ModelEvaluation
 
 
 from us_visa.entity.config_entity import (DataIngestionConfig,
                                           DataValidationConfig,
                                           DataTransformationConfig,
-                                          ModelTrainerConfig)
+                                          ModelTrainerConfig,
+                                          ModelEvaluationConfig)
 
 
 from us_visa.entity.artifact_entity import (DataIngestionArtifact,
                                             DataValidationArtifact,
                                             DataTransformationArtifact,
-                                            ModelTrainerArtifact)
+                                            ModelTrainerArtifact,
+                                            ModelEvaluationArtifact)
 
 
 class TrainPipeline:
@@ -26,6 +29,10 @@ class TrainPipeline:
         self.data_validation_config = DataValidationConfig()
         self.data_transformation_config = DataTransformationConfig()   
         self.model_trainer_config = ModelTrainerConfig()
+        self.model_evaluation_config = ModelEvaluationConfig()
+        
+        
+        
     def start_data_ingestion(self) -> DataIngestionArtifact:
         
         """ 
