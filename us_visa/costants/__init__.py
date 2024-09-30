@@ -81,3 +81,9 @@ MODEL_BUCKET_NAME = "usvisa1-model2024"
 MODEL_PUSHER_S3_KEY = "model-registry"
 
 
+
+APP_HOST = "0.0.0.0"
+APP_PORT = 8080
+
+
+

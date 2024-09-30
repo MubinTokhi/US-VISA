@@ -1,0 +1,48 @@
+[2024-09-30 08:14:21,648] root - 69 - INFO - Entered get_usvisa_data_as_dict method as USvisaData class
+[2024-09-30 08:14:21,648] root - 85 - INFO - Created usvisa data dict
+[2024-09-30 08:14:21,648] root - 87 - INFO - Exited get_usvisa_data_as_dict method as USvisaData class
+[2024-09-30 08:14:21,649] root - 119 - INFO - Entered predict method as USvisaClassifier class
+[2024-09-30 08:14:21,650] root - 15 - INFO - Making connection to S3 bucket
+[2024-09-30 08:14:22,119] root - 139 - INFO - Entered the load_model method of S3Operations class
+[2024-09-30 08:14:22,119] root - 80 - INFO - Entered the get_file_object method of S3Operations class
+[2024-09-30 08:14:22,119] root - 40 - INFO - Entered the get_bucket method of S3Operation class
+[2024-09-30 08:14:22,120] root - 44 - INFO - Exited the get_bucket method of s3operations class
+[2024-09-30 08:14:22,757] root - 90 - INFO - Exited the get_file_object method of S3Operations class
+[2024-09-30 08:14:22,757] root - 109 - INFO - Entered the read_object method of S3Operations class
+[2024-09-30 08:14:22,757] root - 120 - INFO - Exited the read_object method of S3Operations class
+[2024-09-30 08:14:24,918] root - 154 - INFO - Exited the load_model method of S3Operations class
+[2024-09-30 08:14:24,919] root - 47 - INFO - Entered predict method of USvisamodel class
+[2024-09-30 08:14:24,919] root - 51 - INFO - Using the trained model to get predictions
+[2024-09-30 08:14:24,925] root - 55 - INFO - Used the trained model to get prediction
+[2024-09-30 08:15:27,679] root - 69 - INFO - Entered get_usvisa_data_as_dict method as USvisaData class
+[2024-09-30 08:15:27,679] root - 85 - INFO - Created usvisa data dict
+[2024-09-30 08:15:27,679] root - 87 - INFO - Exited get_usvisa_data_as_dict method as USvisaData class
+[2024-09-30 08:15:27,680] root - 119 - INFO - Entered predict method as USvisaClassifier class
+[2024-09-30 08:15:27,680] root - 15 - INFO - Making connection to S3 bucket
+[2024-09-30 08:15:27,680] root - 139 - INFO - Entered the load_model method of S3Operations class
+[2024-09-30 08:15:27,680] root - 80 - INFO - Entered the get_file_object method of S3Operations class
+[2024-09-30 08:15:27,680] root - 40 - INFO - Entered the get_bucket method of S3Operation class
+[2024-09-30 08:15:27,681] root - 44 - INFO - Exited the get_bucket method of s3operations class
+[2024-09-30 08:15:28,217] root - 90 - INFO - Exited the get_file_object method of S3Operations class
+[2024-09-30 08:15:28,217] root - 109 - INFO - Entered the read_object method of S3Operations class
+[2024-09-30 08:15:28,217] root - 120 - INFO - Exited the read_object method of S3Operations class
+[2024-09-30 08:15:30,396] root - 154 - INFO - Exited the load_model method of S3Operations class
+[2024-09-30 08:15:30,396] root - 47 - INFO - Entered predict method of USvisamodel class
+[2024-09-30 08:15:30,396] root - 51 - INFO - Using the trained model to get predictions
+[2024-09-30 08:15:30,402] root - 55 - INFO - Used the trained model to get prediction
+[2024-09-30 08:16:27,229] root - 69 - INFO - Entered get_usvisa_data_as_dict method as USvisaData class
+[2024-09-30 08:16:27,229] root - 85 - INFO - Created usvisa data dict
+[2024-09-30 08:16:27,230] root - 87 - INFO - Exited get_usvisa_data_as_dict method as USvisaData class
+[2024-09-30 08:16:27,231] root - 119 - INFO - Entered predict method as USvisaClassifier class
+[2024-09-30 08:16:27,231] root - 15 - INFO - Making connection to S3 bucket
+[2024-09-30 08:16:27,231] root - 139 - INFO - Entered the load_model method of S3Operations class
+[2024-09-30 08:16:27,231] root - 80 - INFO - Entered the get_file_object method of S3Operations class
+[2024-09-30 08:16:27,231] root - 40 - INFO - Entered the get_bucket method of S3Operation class
+[2024-09-30 08:16:27,232] root - 44 - INFO - Exited the get_bucket method of s3operations class
+[2024-09-30 08:16:27,732] root - 90 - INFO - Exited the get_file_object method of S3Operations class
+[2024-09-30 08:16:27,733] root - 109 - INFO - Entered the read_object method of S3Operations class
+[2024-09-30 08:16:27,733] root - 120 - INFO - Exited the read_object method of S3Operations class
+[2024-09-30 08:16:29,403] root - 154 - INFO - Exited the load_model method of S3Operations class
+[2024-09-30 08:16:29,403] root - 47 - INFO - Entered predict method of USvisamodel class
+[2024-09-30 08:16:29,403] root - 51 - INFO - Using the trained model to get predictions
+[2024-09-30 08:16:29,408] root - 55 - INFO - Used the trained model to get prediction
