@@ -48,6 +48,9 @@ class ModelPusherArtifact:
     s3_model_path: str
     
     
+
+    
+    
     
     
     
